@@ -1,7 +1,7 @@
 #matrices
 a = [[0 for x in range(2)] for y in range(2)]
 #print("enter the coefficient of x and y of first equation and then 2nd equation")
-temp = [4]
+temp = []
 temp = input("enter the coefficient of x and y of first equation and then 2nd equation")
 tmp = temp.split()
 
@@ -20,8 +20,9 @@ a_inverse[0][1] = -a[0][1]
 a_inverse[1][0] = -a[1][0]
 a_inverse[1][1] = a[0][0]
 #print (a_inverse)
-b = [2]
+b = []
 b = input("enter RHS")
-x = [2]
-x = a_inverse*b
+x = []
+x[0] = a_inverse[0][0]*b[0] + a_inverse[0][1]*b[1]
+x[1] = a_inverse[1][0]*b[0] + a_inverse[1][1]*b[1]
 print (x)
