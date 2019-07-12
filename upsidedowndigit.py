@@ -1,3 +1,4 @@
+# to print the usside-down triangle of digits
 row = int(input("Enter number of rows"))
 a = row
 for i in range(row+1, 0, -1):

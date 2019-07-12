@@ -1,3 +1,4 @@
+# to print a triangle of integers aligned to the right
 row = int(input("Enter the number of rows"))
 a = 5
 for i in range(1, row+1, 1):
