@@ -11,6 +11,7 @@ def lcm(d1, d2):
             return i
         else:
             return d1 * d2
+        break
 
 n1 = int(input("enter numerator of the first number"))
 d1 = int(input("enter denominator of the first number"))
